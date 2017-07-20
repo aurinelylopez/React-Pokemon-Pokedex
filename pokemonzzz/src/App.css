@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Capriola');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background: url("http://orig07.deviantart.net/41dd/f/2016/257/5/3/pokemuns_by_colonel_strawberry-dahm9yb.png");
+  height: 150px;
+  padding: 20px;
+  color: white;
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.Left{
+  width: 400px;
+  height: 500px;
+  overflow: scroll;
+  border: 1px solid black;
+  flex: 1;
+  margin: 50px;
+  background: #fff;
+  padding-left: 50px;
+  line-height: 50px;
+  text-transform: capitalize;
+  font-family: 'Capriola', sans-serif;
+  color: blue;
+  font-size: 35px;
+  cursor:pointer;
+}
+
+.Right{
+ 
+  width: 400px;
+  height: 500px;
+  overflow: scroll;
+  border: 1px solid black;
+  flex:1;
+  margin: 50px;
+  background: #fff;
+}
+
+.Container
+{
+  border: 1px solid black;
+  display: flex;
+  height: 600px;
+}
